@@ -1,0 +1,51 @@
+div
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.textinput
+{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.textinput input
+{
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+    background: white;
+    font-weight: 1000;
+    font-size: 1.3rem;
+    padding: 8px;
+    border: none;
+}
+
+input:focus
+{
+    border: none;
+}
+button
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    background: #FE9148;
+}
+
+button:hover
+{
+    background: #FE7F2D;
+}
+
+button:active
+{
+    background: #FE9148;
+}
