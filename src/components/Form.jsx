@@ -1,5 +1,5 @@
 import { useState } from "react";
-import '../assets/css/Form.css'
+import '../assets/css/Form.css';
 
 
 const InputForm = ({ handleTextLink }) =>

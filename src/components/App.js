@@ -1,4 +1,4 @@
-import './assets/css/App.css';
+import '../assets/css/App.css';
 import Inputform from './Form';
 import { useState } from 'react';
 import QRCode from 'react-qr-code';
